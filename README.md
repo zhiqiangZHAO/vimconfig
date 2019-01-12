@@ -9,12 +9,12 @@ Features:
 *	Easy to install and update: you need only one command.
 *	Easy to compile and debug program: you need not exit your vim any more.
 
-##1. what plugins are included  in this project?
+## 1. what plugins are included  in this project?
 
-###1.1 go
+### 1.1 go
 This is syntax hight for go language. You need not do nothing to invoke it.
 
-###1.2 nerdtree
+### 1.2 nerdtree
 With this plugin, you can brow your file in one project more easily: it will be displayed in file tree.
 
 **config**
@@ -26,7 +26,7 @@ With this plugin, you can brow your file in one project more easily: it will be 
 **invoke**
 	To invoke it , just put `\n` in vim NORMAL mode.
 
-###1.3 vim-commentary
+### 1.3 vim-commentary
 **config**	
 
 	autocmd FileType python,shell set commentstring=#\ %s   " 设置Python注释字符
