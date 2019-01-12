@@ -43,6 +43,7 @@ With this plugin, you can brow your file in one project more easily: it will be 
 
 ### 1.5 vim-multicursor
 (to be added)
+
 ### 1.6 vim-pathogen
 With this plugin, you can management much easier. 
 
@@ -52,19 +53,25 @@ With this plugin, you can management much easier.
 	call pathogen#infect()
 **invoke**
 	Do nothing.
+
 ### 1.7 vimwiki
 ignore
+
 ### 1.8 neobundle.vim
 (to be added)
+
 ### 1.9 ultisnips
 (to be added)
+
 ### 1.10 vim-easymotion
 (to be added)
-### 1.11 vim-markdown
 
+### 1.11 vim-markdown
 This is just for syntax hightlight for markdown.
+
 ### 1.12 vim-nerdtree-tabs
 (to be added)
+
 ### 1.13 vim-PinyinSearch
 This is for search PinYin.
 **config**
@@ -77,7 +84,6 @@ This is for search PinYin.
 
 ### 1.14 airline
 This is usefull when you want to display some info about the pwd, model, filename, encode, and so on.
-
 **config**
 
 	"airline
@@ -93,9 +99,9 @@ This is usefull when you want to display some info about the pwd, model, filenam
 	" set the status line
 	set laststatus=2
 **invoke**
+	Do nothing.
 
-Do nothing.
-###1.15 CtrlP
+### 1.15 CtrlP
 When there are many files in your project, chances are that you want to open the files which were opened recently.This plugin helps you to do this.
 
 **config**
@@ -106,7 +112,7 @@ When there are many files in your project, chances are that you want to open the
 **invode**
 	Input `<c-p>` in NORMAL model.
 
-###1.16 taglist
+### 1.16 taglist
 
 In some IDE like Visual Studio or Eclipse, we can see the name of typedef,Class, Function and so on.This plugin can help you do this.
 **config**
@@ -117,8 +123,7 @@ In some IDE like Visual Studio or Eclipse, we can see the name of typedef,Class,
 	let Tlist_Ctags_Cmd="/usr/bin/ctags"
 	map tl	:Tlist<cr>
 **invode**
-
-Input `tl` in NORMAL model.
+	Input `tl` in NORMAL model.
 
 ### 1.17 winManager
 This plugin will help you manage the windows in one terminal.
@@ -154,7 +159,7 @@ You can find
     	nnoremap  ,fd :call cscope#find('d', expand('<cword>'))<CR><CR>
     	" c: Find functions calling this function
 **invoke**
-As you see in the config above, you can call it by `,fg` or `,fc`.
+	As you see in the config above, you can call it by `,fg` or `,fc`.
 
 ## 2. Easy compile&&debug
 
