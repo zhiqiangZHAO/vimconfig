@@ -24,6 +24,7 @@ With this plugin, you can brow your file in one project more easily: it will be 
 	map <leader>n <plug>NERDTreeTabsToggle <CR> 
 
 **invoke**
+	
 	To invoke it , just put `\n` in vim NORMAL mode.
 
 ### 1.3 vim-commentary
@@ -35,37 +36,36 @@ With this plugin, you can brow your file in one project more easily: it will be 
 	nmap	,u	gcu
 
 **invoke**
-	
-Select what you want to comment in visual mode. Then use `gcc` or `gcu`.
-###1.4 vim-fileHeader
+	Select what you want to comment in visual mode. Then use `gcc` or `gcu`.
+
+### 1.4 vim-fileHeader
 (to be added)
-###1.5 vim-multicursor
+
+### 1.5 vim-multicursor
 (to be added)
-###1.6 vim-pathogen
+### 1.6 vim-pathogen
 With this plugin, you can management much easier. 
 
 **config**
-
 	filetype plugin indent on
 	runtime bundle/vim-pathogen/autoload/pathogen.vim
 	call pathogen#infect()
-**invoe**
-
-Do nothing.
-###1.7 vimwiki
+**invoke**
+	Do nothing.
+### 1.7 vimwiki
 ignore
-###1.8 neobundle.vim
+### 1.8 neobundle.vim
 (to be added)
-###1.9 ultisnips
+### 1.9 ultisnips
 (to be added)
-###1.10 vim-easymotion
+### 1.10 vim-easymotion
 (to be added)
-###1.11 vim-markdown
+### 1.11 vim-markdown
 
 This is just for syntax hightlight for markdown.
-###1.12 vim-nerdtree-tabs
+### 1.12 vim-nerdtree-tabs
 (to be added)
-###1.13 vim-PinyinSearch
+### 1.13 vim-PinyinSearch
 This is for search PinYin.
 **config**
 
@@ -73,9 +73,9 @@ This is for search PinYin.
 	let g:PinyinSearch_Dict = '/home/huangyk/.vim/bundle/vim-PinyinSearch/PinyinSearch.dict'
 	map		?	:call PinyinSearch()<cr>
 **invoke**
+	Just input `?` in NORMAL model.
 
-Just input `?` in NORMAL model.
-###1.14 airline
+### 1.14 airline
 This is usefull when you want to display some info about the pwd, model, filename, encode, and so on.
 
 **config**
@@ -92,21 +92,19 @@ This is usefull when you want to display some info about the pwd, model, filenam
 	let g:airline#extensions#tabline#left_alt_sep = '|'
 	" set the status line
 	set laststatus=2
-**invoe**
+**invoke**
 
 Do nothing.
 ###1.15 CtrlP
 When there are many files in your project, chances are that you want to open the files which were opened recently.This plugin helps you to do this.
 
 **config**
-
 	"ctrlp
 	let g:ctrlp_map = '<c-p>'
 	let g:ctrlp_cmd = 'CtrlP'
 
 **invode**
-
-Input `<c-p>` in NORMAL model.
+	Input `<c-p>` in NORMAL model.
 
 ###1.16 taglist
 
@@ -122,7 +120,7 @@ In some IDE like Visual Studio or Eclipse, we can see the name of typedef,Class,
 
 Input `tl` in NORMAL model.
 
-###1.17 winManager
+### 1.17 winManager
 This plugin will help you manage the windows in one terminal.
 **config**
 
@@ -134,7 +132,7 @@ This plugin will help you manage the windows in one terminal.
 
 Input `wm` in VIM NORMAL model.
 
-###1.18 cscope
+### 1.18 cscope
 This plugin will help you use tag more quickly. 
 
 You can find 
@@ -150,27 +148,27 @@ You can find
 	"nmap<C-_>s :cs find s<C-R>=expand("<cword>")<CR><CR>)
 	" s: Find this C symbol
 	"    nnoremap  <leader>fs :call cscope#find('s', expand('<cword>'))<CR>
-    " g: Find this definition
-    nnoremap  ,fg :call cscope#find('g', expand('<cword>'))<CR><CR>
-    " d: Find functions called by this function
-    nnoremap  ,fd :call cscope#find('d', expand('<cword>'))<CR><CR>
-    " c: Find functions calling this function
-**invode**
+    	" g: Find this definition
+    	nnoremap  ,fg :call cscope#find('g', expand('<cword>'))<CR><CR>
+    	" d: Find functions called by this function
+    	nnoremap  ,fd :call cscope#find('d', expand('<cword>'))<CR><CR>
+    	" c: Find functions calling this function
+**invoke**
 As you see in the config above, you can call it by `,fg` or `,fc`.
 
-##2. Easy compile&&debug
+## 2. Easy compile&&debug
 
 When you use `visual studio`, you can use `F7` to compile and `F5` to debug. Now you can also do this with our vimrc.
 
 **Usage**
 
 You can find this by "map key" in vimrc.
-##3 Installation
+## 3 Installation
 
 	git clone https://github.com/huangyukun2012/vimconfig.git 	
 	./install
 
-##4. extention
+## 4. Extention
 
 **How to install new plugin**
 
